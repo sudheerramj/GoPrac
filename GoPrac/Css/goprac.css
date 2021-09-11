@@ -1,0 +1,277 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.nav-bar{
+     background-color:rgb(232, 238, 232);
+     position: fixed;
+     width:100%;
+    }
+    .list-items{
+        position:absolute;
+        top:15px;
+        left:250px;
+    }
+    .png-setter{
+        position: relative;
+        top:5px;    
+        padding:2px;
+        
+    }
+    .login{
+        position:absolute;
+        right:100px;
+        top:5px;
+    }
+  .nav-bar ul li {
+    display: inline;
+    list-style: none;
+    text-align:center;
+    padding:25px; 
+    text-align:center;   
+    font-family: arial;
+    font-weight: thick bold;
+    font-size:13px;
+    text-emphasis-color: black;
+}
+a
+{
+    text-decoration: none;
+     color:thick black;  
+}
+.logo{
+    position:absolute;
+    padding:10px;
+    top:15px;
+    font-size :15px;
+}
+.content {
+    background-image: url("Banner1.jpeg");
+    height:300px;
+    
+}
+h1{
+    text-align:center;
+    color:white;
+    padding: 50px 10px 30px 20px;
+    font-family: arial;
+    font-weight: bold;
+    line-height:100px;
+    height: 30px;
+}
+p{
+    text-align:center;
+    color:rgb(240, 230, 230);
+    line-height:25px;
+    padding:10px ;
+    padding-bottom:10px;;
+    font-size:20px;
+    font-family: arial;
+    font-weight: bold;
+    height:20px;
+  
+}
+.button{
+    background-image: linear-gradient(to right, red , orange);
+    border: none;
+    border-radius: 22px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin-left:630px;
+    line-height:50px;
+  }
+  
+  .button:hover {
+    background: #f7b272;
+    text-decoration: underline;
+  }
+  
+.sub-navbar 
+{
+    background-color: rgb(252, 246, 246);
+    width: 90%;
+    height: 60px;
+    margin-left:80px;
+}
+.buttongen{
+    background-image: linear-gradient(to right, red , orange);
+    border-radius: 22px;
+    color: white;
+    padding:15px 32px ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left:180px;
+    line-height:22px;
+    cursor: pointer; /* Pointer/hand icon */
+    float: left;
+    margin-top:20px;
+    
+}
+.buttongen:hover{
+    background: #f7b272;
+    text-decoration: underline;
+}
+ul li {
+    padding: 30px;
+    color: black;
+    display:inline-table; 
+    text-align: center;
+    margin-left:30px;
+    font-family: Arial;
+    font-size:15px;
+    font-weight: thick bold;
+}
+ .sub-navbar a :hover{
+background-color:  black;
+
+}
+.search_intrvws{
+    padding-top:50px;
+    padding-bottom:80px;
+
+}
+.search_intrvws input[type=text]    {
+    padding:10px ;
+    border: 0.2px solid gray;
+    border-radius: 4px;
+    width:80%;
+    margin-left:5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color: green;
+ }
+ .search_intrvws input[type=submit]
+ {
+     padding:10px 10px;
+     color:black;
+     font-family:Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     border-radius:3px ;
+     border:0.2px solid gray;
+    
+ }
+ .search_intrvws input[type=submit]:hover{
+     background-color: #d69c31;
+ }
+ h4{
+    align-content: center;
+    border-radius: 2px;
+    width:70%;
+    border-left-width: 25px;;
+    height:30px;
+    text-align: center;
+    padding-left:0px;
+    margin-left:150px;
+    color: green;
+    padding-top:20px;
+}
+ table{
+    align-items: center;
+    border:none ;
+    border-spacing:40px;
+    width:100%;
+}
+th {
+    color: #DF711B;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+td{
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}     
+.gopracbtn{
+    border: 0;
+line-height: 2.5;
+padding: 0 20px;
+font-size: 1rem;
+text-align: center;
+color: #fff;
+text-shadow: 1px 1px 1px #000;
+border-radius: 25px;
+background-color: #f5d020;
+background-image: linear-gradient(315deg, #f5d020 0%, #f53803 54%);
+
+}
+
+.gopracbtn:hover{
+   background-color:green;
+}
+.gopracbtn:active{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(240, 224, 224, 0.6);
+}
+.strbtn{
+    border:1px;
+    line-height:2.0;
+    padding:0px 10px;
+    margin:50px;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:17px;
+    border-radius:5px;
+    background-color:#DF711B;
+    color: white;
+    position: absolute;
+    top: 430px;
+    left:78%;  
+}
+.strbtn:hover{
+    background-color:#e09963;
+}
+.strbtn:active{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(240, 224, 224, 0.6);
+}
+h3{
+    color:black;
+    text-align:center;
+    font-size:15px;
+    padding:10px;
+}
+.loadmoreinr{
+    text-align:center;
+    padding:25px;
+    line-height: 20px;
+}
+.workflow{
+    width: 800px;
+    height:400px;
+    margin-left:250px;
+}
+.footer {
+    height:200px;
+    color:white;
+    padding:50px; 
+    font-family:Arial;
+    background-color:#343A40;
+}
+.footer p{
+    
+    width: 800px;
+    font-size:15px;
+    text-align:justify;
+
+}
+.copyrights{
+    padding-top:150px;
+    
+}
+.infogoprac{
+    color:white;
+    position:absolute;
+    right:80px;
+    text-decoration: underline;
+
+}
+
